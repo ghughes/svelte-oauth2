@@ -1,5 +1,3 @@
-import { debug } from "svelte/internal"
-
 import { getTokenStorageType } from "./oauth"
 import type { TokenStorage } from "./oauth/tokenStorage"
 import { browserCookie } from "./oauth/tokenStorage/browserCookie"
